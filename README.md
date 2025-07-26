@@ -59,22 +59,7 @@ The challenge is to develop models capable of accurately predicting the properti
 
 The competition provided **three key files** with rich, complex data:
 
-<div align="center">
-
-```mermaid
-graph LR
-    A[📁 train.csv] --> B[🧠 Model Training]
-    C[📁 test.csv] --> D[🎯 Predictions]
-    E[📁 sample_submission.csv] --> F[📤 Submission Format]
-    B --> D
-    D --> F
-```
-
-## 📊 Dataset Overview
-
-The competition provided **three key files** with rich, complex data:
-
-<div align="center">
+<div align="left">
 
 ```mermaid
 graph TD
