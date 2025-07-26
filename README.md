@@ -53,24 +53,80 @@ In the fuel industry, blending different fuel components to achieve desired prop
 
 The challenge is to develop models capable of accurately predicting the properties of fuel blends based on their constituent components and their proportions. These predictions must be precise enough to guide real-world blending decisions where safety, performance, and sustainability are paramount. By harnessing the power of data science and machine learning, this work helps accelerate the adoption of sustainable aviation fuels by providing tools that can rapidly evaluate thousands of potential blend combinations, identify optimal recipes that maximize sustainability while meeting specifications, reduce development time for new sustainable fuel formulations, and enable real-time blend optimization in production facilities.
 
-## 📊 Dataset Overview
 
 ## 📊 Dataset Overview
 
-The competition provided **three key files**:
+The competition provided **three key files** with rich, complex data:
+
+<div align="center">
 
 ```mermaid
-flowchart TD
-    A[📊 Competition Dataset] --> B[📁 train.csv<br/>Training Data<br/>Rows: Variable<br/>Columns: 65]
-    A --> C[📁 test.csv<br/>Test Data<br/>Rows: 500<br/>Columns: 55]  
-    A --> D[📁 sample_submission.csv<br/>Submission Template<br/>Format Guide]
-    
-    B --> E[Model Training & Validation]
-    C --> F[Final Predictions]
-    D --> G[Submission Format]
-    
-    E --> F
-    F --> G
+graph LR
+    A[📁 train.csv] --> B[🧠 Model Training]
+    C[📁 test.csv] --> D[🎯 Predictions]
+    E[📁 sample_submission.csv] --> F[📤 Submission Format]
+    B --> D
+    D --> F
+```
+
+</div>
+
+### 📈 `train.csv` - Training Data
+
+<div align="center">
+  
+**🎲 Total Columns: 65**
+
+</div>
+
+| **Section** | **Columns** | **Description** | **Format** |
+|-------------|-------------|-----------------|------------|
+| 🧪 **Blend Composition** | `5` | Volume percentage of each base component | `Component1` to `Component5` |
+| 🔬 **Component Properties** | `50` | Certificate of Analysis (COA) data for each component batch | `Component{N}_Property{M}` |
+| 🎯 **Target Variables** | `10` | Final blend properties to predict | `BlendProperty1` to `BlendProperty10` |
+
+> **📝 Note**: Component properties follow the structure `Component{1-5}_Property{1-10}` 
+> 
+> *Example: `Component1_Property1`, `Component2_Property5`, etc.*
+
+---
+
+### 🧪 `test.csv` - Evaluation Data
+
+
+- **500 test samples** with 55 input features (composition + component properties)
+- **❌ No target variables** - these needed to be predicted
+
+---
+
+### 📋 `sample_submission.csv` - Submission Template
+
+```csv
+ID,BlendProperty1,BlendProperty2,...,BlendProperty10
+1,12.34,56.78,...,90.12
+2,23.45,67.89,...,01.23
+...
+```
+
+## 📏 Evaluation Methodology
+
+<div align="center">
+
+### 🎯 **Primary Metric: Mean Absolute Percentage Error (MAPE)**
+
+</div>
+
+```python
+# Mathematical Formula
+MAPE = (100/n) × Σ|((actual - predicted) / actual)|
+
+# Leaderboard Score Calculation  
+Score = max(0, 100 × (1 - cost/reference_cost))
+```
+
+---
+
+I need the dataset over view in the mermaid graph. Right now, I dont understand the graph poperly. Under the graph just mention what rows does the train and test dataset has. Please give this separately instead of making of changes in the existing code
  
 ## 🛠️ My Approach
 
