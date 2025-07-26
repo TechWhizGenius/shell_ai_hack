@@ -14,52 +14,18 @@
 | **🏢 Organizer** | Shell.ai Team |
 | **🌐 Platform** | [HackerEarth](https://www.hackerearth.com/challenges/new/competitive/shellai-hackathon-2025/) |
 | **📅 Competition Period** | Jul 04, 2025 - Jul 23, 2025 |
-| **👥 Total Participants** | 7005 |
+| **👥 Total Participants** | 7,005 |
 | **🎯 Challenge Focus** | Sustainable Fuel Blend Properties Prediction |
 | **📊 Submission Limit** | 2000 total, 100 per day |
 | **🏆 Prize Categories** | General, University, Start-up Editions |
 
 ---
 
-### 🌟 Event Highlights
 
-- **🎤 Changemakers of Tomorrow Event**: Winners pitch live at Shell Technology Centre, Bangalore
-- **✈️ Travel Support**: Accommodation and travel covered for top finalists
-- **🌍 Global Participation**: International competition with diverse participants
-- **💡 Real-world Impact**: Solutions addressing actual industry challenges
 
 ---
 
-<div align="center">
-
-**🔗 Useful Links**
-
-[![Problem Statement](https://img.shields.io/badge/Problem-Statement-blue?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
-[![Shell.ai](https://img.shields.io/badge/Shell.ai-Homepage-yellow?style=flat-square)](https://www.shell.ai/)
-[![Dataset](https://img.shields.io/badge/Download-Dataset-green?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
-
-</div>
-
-<div align="center">
-
-### 💫 **Special Thanks**
-
-</div>
-
-<div align="center">
-
-| **🏢 Organization** | **🎯 Contribution** |
-|---------------------|-------------------|
-| **Shell.ai Team** | Organizing this impactful hackathon and providing real-world industry challenges |
-| **HackerEarth** | Excellent platform for hosting the competition with robust evaluation system |
-| **Sustainable Energy Community** | Inspiration and motivation to work on clean energy solutions |
-| **Open Source Community** | Amazing libraries and tools that made this solution possible |
-
-</div>
-
----
-
-### 🛠️ **Technology Stack Appreciation**
+### 🛠️ **Tech Stack**
 
 <div align="center">
 
@@ -75,101 +41,24 @@
 
 ---
 
-<div align="center">
-
-**🌱 This project contributes to the global effort of accelerating sustainable fuel adoption and supporting the transition to a net-zero future.**
-
-*Built with ❤️ for a more sustainable tomorrow*
-
-</div># 🛢️ Shell.ai Hackathon 2025: Sustainable Fuel Blend Properties Prediction
-
-<div align="center">
-  
-![Hackathon Badge](https://img.shields.io/badge/Shell.ai-Hackathon%202025-green?style=for-the-badge&logo=shell)
-![Status](https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge)
-![ML](https://img.shields.io/badge/ML-Regression-orange?style=for-the-badge&logo=python)
-
-**🌱 Building Tomorrow's Sustainable Aviation Fuels with AI**
-
-</div>
-
----
-
 ## 🌍 About the Challenge
 
 > *"Accelerating the transition to a net-zero future without compromising on excellence"*
 
-This project was developed for the **Shell.ai Hackathon 2025 - Sixth Edition**, focused on ***"Sustainable and Affordable Energy."*** The hackathon brought together brilliant minds passionate about data science and AI to tackle real-world energy challenges and contribute to building a lower-carbon world where everyone can access and afford energy.
+The global call for sustainability is reshaping every industry, including mobility, shipping and aviation. For example, Sustainable Aviation Fuels (SAFs) are pivotal in this transformation, offering a powerful lever to significantly reduce the sector's environmental footprint. However, integrating these innovative fuels into the existing ecosystem presents a sophisticated challenge.
+Crafting the optimal fuel blend – mixing various sustainable fuel types sourced from diverse pathways with each other or with conventional fuels – is an intricate science. It demands a delicate balancing act: ensuring adherence to rigorous safety and performance specifications while maximizing environmental benefits and maintaining economic viability.
+In this hackathon,  will immerse yourselves in the critical field of fuel blending. Your challenge is to develop models capable of predicting the final properties of complex fuel blends based on their constituent components and proportions. By exploring datasets rich with complex interactions, you will decipher the hidden relationships that dictate fuel performance, safety, regulatory and environmental characteristics.
+The endgame is to engineer powerful predictive tools that can guide the industry in formulating the next generation of sustainable fuels, accelerating the transition to a net-zero future, without compromising on excellence.
 
-### 🎯 Challenge Theme: Blend Properties Estimation for Sustainable Fuel
 
-The global push for sustainability is **transforming industries** like mobility, shipping, and aviation. **Sustainable Aviation Fuels (SAFs)** are crucial in this transformation, but integrating these innovative fuels presents complex challenges. The key lies in crafting optimal fuel blends—mixing various sustainable fuel types with each other or conventional fuels while ensuring safety, performance, and environmental standards.
-
-<details>
-<summary><b>🔍 Click to see previous Shell.ai challenges</b></summary>
-
-- **2020**: Windfarm layout optimization
-- **2021**: Irradiance forecasting for solar power generation  
-- **2022**: Optimal placement of electric vehicle (EV) charging stations
-- **2023**: Supply chain optimization for biorefineries
-- **2024**: Fleet decarbonization
-- **2025**: Blend properties estimation for sustainable fuel *(Current)*
-
-</details>
 
 ## 🎯 Problem Statement
 
-<div align="center">
-  
-### 🧬 **The Challenge**
-*Develop machine learning models capable of accurately predicting the final properties of complex fuel blends based on their constituent components and proportions.*
+In the fuel industry, blending different fuel components to achieve desired properties is both an art and a science. The relationships between component fractions and final blend properties are highly complex, involving linear and non-linear interactions, synergistic effects, and conditional behaviours that vary based on component combinations. This complexity makes accurate prediction a challenging, high-dimensional problem.
 
-</div>
+The challenge is to develop models capable of accurately predicting the properties of fuel blends based on their constituent components and their proportions. These predictions must be precise enough to guide real-world blending decisions where safety, performance, and sustainability are paramount. By harnessing the power of data science and machine learning, this work helps accelerate the adoption of sustainable aviation fuels by providing tools that can rapidly evaluate thousands of potential blend combinations, identify optimal recipes that maximize sustainability while meeting specifications, reduce development time for new sustainable fuel formulations, and enable real-time blend optimization in production facilities.
 
-### 🤔 Why This Matters
-
-| Aspect | Challenge | Impact |
-|--------|-----------|---------|
-| **🧪 Complexity** | Intricate relationships between components including linear/non-linear interactions, synergistic effects, and conditional behaviors | High-dimensional prediction problem |
-| **🎯 Real-world Impact** | Predictions must be precise enough to guide actual blending decisions | Safety, performance, and sustainability are paramount |
-| **🚀 Industry Acceleration** | Enable rapid evaluation of thousands of blend combinations | Real-time optimization in production facilities |
-
-### 💼 Business Value & Impact
-
-<table>
-<tr>
-<td align="center">
-  
-**🚀 Speed**
-  
-Rapidly evaluate **thousands** of potential blend combinations
-
-</td>
-<td align="center">
-  
-**🎯 Optimization**
-  
-Identify optimal recipes maximizing **sustainability** while meeting specifications
-
-</td>
-</tr>
-<tr>
-<td align="center">
-  
-**⏱️ Efficiency**
-  
-Reduce development time for **new sustainable fuel** formulations
-
-</td>
-<td align="center">
-  
-**🏭 Real-time**
-  
-Enable **real-time blend optimization** in production facilities
-
-</td>
-</tr>
-</table>
+---
 
 ## 📊 Dataset Overview
 
@@ -633,6 +522,23 @@ head results/submission.csv
 - Shell.ai team for organizing this impactful hackathon
 - The sustainable energy community for inspiration
 - [Any other acknowledgments]
+
+<div align="center">
+
+### 💫 **Special Thanks**
+
+</div>
+
+<div align="center">
+
+| **🏢 Organization** | **🎯 Contribution** |
+|---------------------|-------------------|
+| **Shell.ai Team** | Organizing this impactful hackathon and providing real-world industry challenges |
+| **HackerEarth** | Excellent platform for hosting the competition with robust evaluation system |
+| **Sustainable Energy Community** | Inspiration and motivation to work on clean energy solutions |
+| **Open Source Community** | Amazing libraries and tools that made this solution possible |
+
+</div>
 
 ---
 
