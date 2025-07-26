@@ -78,13 +78,17 @@ The competition provided **three key files** with rich, complex data:
 
 ```mermaid
 graph TD
-    A[📁 train.csv<br/>Training Data] --> B[🧠 Build & Train Model]
-    C[📁 test.csv<br/>Test Data] --> D[🎯 Generate Predictions]
-    E[📁 sample_submission.csv<br/>Format Template] --> F[📤 Final Submission]
-    
-    B --> D
+    A[📁 train.csv<br/>Training Data] --> B[🔍 EDA & Preprocessing]
+    B --> C[🧠 Model Development & Training]
+    C --> D[✅ Trained Model]
+
+    E[📁 test.csv<br/>Test Data] --> F[🔮 Inference using Trained Model]
     D --> F
-    E --> F
+
+    F --> G[📄 submission.csv<br/>Predicted Results]
+    H[📁 sample_submission.csv<br/>Submission Format Guide] --> G
+    G --> I[📤 Final Submission]
+
 ```
 </div>
 
