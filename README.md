@@ -21,10 +21,6 @@
 
 ---
 
-
-
----
-
 ### 🛠️ **Tech Stack**
 
 <div align="center">
@@ -40,16 +36,16 @@
 *Special appreciation for the open-source data science ecosystem that made this project possible*
 
 ---
+## 🌍 Introduction
+Welcome to the sixth edition of the Shell.ai Hackathon for Sustainable and Affordable Energy. Shell.ai Hackathon brings together brilliant minds passionate about digital solutions and AI, to tackle real energy challenges and help build a lower-carbon world where everyone can access and afford energy.
 
-## 🌍 About the Challenge
+## 🚀 Challenge
 
 > *"Accelerating the transition to a net-zero future without compromising on excellence"*
 
-The global call for sustainability is reshaping every industry, including mobility, shipping and aviation. For example, Sustainable Aviation Fuels (SAFs) are pivotal in this transformation, offering a powerful lever to significantly reduce the sector's environmental footprint. However, integrating these innovative fuels into the existing ecosystem presents a sophisticated challenge.
-Crafting the optimal fuel blend – mixing various sustainable fuel types sourced from diverse pathways with each other or with conventional fuels – is an intricate science. It demands a delicate balancing act: ensuring adherence to rigorous safety and performance specifications while maximizing environmental benefits and maintaining economic viability.
-In this hackathon,  will immerse yourselves in the critical field of fuel blending. Your challenge is to develop models capable of predicting the final properties of complex fuel blends based on their constituent components and proportions. By exploring datasets rich with complex interactions, you will decipher the hidden relationships that dictate fuel performance, safety, regulatory and environmental characteristics.
-The endgame is to engineer powerful predictive tools that can guide the industry in formulating the next generation of sustainable fuels, accelerating the transition to a net-zero future, without compromising on excellence.
+The global call for sustainability is reshaping every industry, including mobility, shipping and aviation. Sustainable Aviation Fuels (SAFs) are pivotal in this transformation, offering a powerful lever to significantly reduce the sector's environmental footprint. However, integrating these innovative fuels into the existing ecosystem presents a sophisticated challenge.
 
+Crafting the optimal fuel blend – mixing various sustainable fuel types sourced from diverse pathways with each other or with conventional fuels – is an intricate science. It demands a delicate balancing act: ensuring adherence to rigorous safety and performance specifications while maximizing environmental benefits and maintaining economic viability.
 
 
 ## 🎯 Problem Statement
@@ -57,7 +53,6 @@ The endgame is to engineer powerful predictive tools that can guide the industry
 In the fuel industry, blending different fuel components to achieve desired properties is both an art and a science. The relationships between component fractions and final blend properties are highly complex, involving linear and non-linear interactions, synergistic effects, and conditional behaviours that vary based on component combinations. This complexity makes accurate prediction a challenging, high-dimensional problem.
 
 The challenge is to develop models capable of accurately predicting the properties of fuel blends based on their constituent components and their proportions. These predictions must be precise enough to guide real-world blending decisions where safety, performance, and sustainability are paramount. By harnessing the power of data science and machine learning, this work helps accelerate the adoption of sustainable aviation fuels by providing tools that can rapidly evaluate thousands of potential blend combinations, identify optimal recipes that maximize sustainability while meeting specifications, reduce development time for new sustainable fuel formulations, and enable real-time blend optimization in production facilities.
-
 ---
 
 ## 📊 Dataset Overview
@@ -99,17 +94,9 @@ graph LR
 
 ### 🧪 `test.csv` - Evaluation Data
 
-<div align="center">
-
-![Test Data](https://img.shields.io/badge/Test%20Samples-500-brightgreen?style=flat-square)
-![Features](https://img.shields.io/badge/Input%20Features-55-blue?style=flat-square)
-![Missing](https://img.shields.io/badge/Target%20Variables-Missing-red?style=flat-square)
-
-</div>
 
 - **500 test samples** with 55 input features (composition + component properties)
 - **❌ No target variables** - these needed to be predicted
-- **✅ Same structure** as training data (minus targets)
 
 ---
 
@@ -121,8 +108,6 @@ ID,BlendProperty1,BlendProperty2,...,BlendProperty10
 2,23.45,67.89,...,01.23
 ...
 ```
-
-> **⚠️ Critical**: Submission must follow this **exact format** for proper scoring!
 
 ## 📏 Evaluation Methodology
 
@@ -140,21 +125,6 @@ MAPE = (100/n) × Σ|((actual - predicted) / actual)|
 Score = max(0, 100 × (1 - cost/reference_cost))
 ```
 
-### 🏆 Scoring System
-
-<div align="center">
-
-| Leaderboard | Reference Cost | Sample Size | Visibility |
-|-------------|---------------|-------------|------------|
-| 🔓 **Public** | `2.72` | 250 samples | ✅ Visible during competition |
-| 🔒 **Private** | `2.58` | 250 samples | ❌ Revealed post-competition |
-
-</div>
-
-> **🎖️ Final Ranking**: Based on ***Private Leaderboard*** performance only!
-
-
-
 ---
 
 </div>
@@ -166,8 +136,6 @@ Score = max(0, 100 × (1 - cost/reference_cost))
 ### 🚀 **Solution Architecture**
 
 </div>
-
-> **💡 Tip**: *This section should be customized based on your actual solution*
 
 <details>
 <summary><b>🔍 Data Preprocessing</b></summary>
