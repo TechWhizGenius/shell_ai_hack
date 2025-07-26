@@ -118,7 +118,7 @@ ID,BlendProperty1,BlendProperty2,...,BlendProperty10
 
 <div align="center">
 
-### 🎯 **Primary Metric: Mean Absolute Percentage Error (MAPE)**
+🎯 **Primary Metric: Mean Absolute Percentage Error (MAPE)**
 
 </div>
 
@@ -149,12 +149,6 @@ Score = max(0, 100 × (1 - cost/reference_cost))
 - [ ] **Missing Values**: [Handling of missing values, outliers, etc.]
 - [ ] **Scaling/Normalization**: [Any normalization techniques applied]
 
-```python
-# Example preprocessing pipeline
-def preprocess_data(df):
-    # Your preprocessing steps here
-    return processed_df
-```
 
 </details>
 
@@ -173,11 +167,6 @@ def preprocess_data(df):
 - [ ] **Correlation Analysis**: [Remove highly correlated features]
 
 #### Cross-validation Strategy:
-```python
-# Example CV strategy
-from sklearn.model_selection import KFold
-cv = KFold(n_splits=5, shuffle=True, random_state=42)
-```
 
 </details>
 
@@ -216,30 +205,7 @@ graph TD
 ## 📁 Repository Structure
 
 ```
-📦 shell-ai-hackathon-2025/
-├── 📊 data/                    # Dataset files (if shareable)
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-├── 📓 notebooks/               # Jupyter notebooks for EDA and modeling
-│   ├── 01_exploratory_data_analysis.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_development.ipynb
-│   └── 04_final_predictions.ipynb
-├── 🐍 src/                     # Source code modules
-│   ├── __init__.py
-│   ├── preprocessing.py        # Data preprocessing functions
-│   ├── models.py              # Model definitions
-│   ├── utils.py               # Utility functions
-│   └── main.py                # Main execution script
-├── 📈 results/                 # Model outputs and predictions
-│   ├── submission.csv         # Final submission file
-│   ├── model_performance.json # Performance metrics
-│   └── feature_importance.csv # Feature importance analysis
-├── 📋 requirements.txt         # Python dependencies
-├── 🐳 Dockerfile             # Docker configuration (optional)
-├── ⚙️ config.yaml            # Configuration parameters
-└── 📖 README.md               # This file
+
 ```
 
 <div align="center">
@@ -248,126 +214,6 @@ graph TD
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?style=flat-square&logo=jupyter)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green?style=flat-square&logo=pandas)
 ![Scikit](https://img.shields.io/badge/Scikit--Learn-ML-red?style=flat-square&logo=scikit-learn)
-
-</div>
-
-## 🚀 How to Run
-
-<div align="center">
-
-### 🔧 **Quick Start Guide**
-
-</div>
-
-<details>
-<summary><b>📋 Prerequisites</b></summary>
-
-- **Python**: 3.8 or higher
-- **Operating System**: Windows/macOS/Linux
-- **RAM**: Minimum 8GB (16GB recommended)
-- **Storage**: ~500MB for dependencies
-
-</details>
-
-### 1️⃣ **Clone the Repository**
-
-```bash
-# Clone the repository
-git clone [your-repo-url]
-cd shell-ai-hackathon-2025
-
-# Verify the structure
-ls -la
-```
-
-### 2️⃣ **Set Up Environment**
-
-<div align="center">
-
-**Choose your preferred method:**
-
-</div>
-
-<div align="center">
-
-| Using pip | Using conda | Using Docker |
-|-----------|-------------|--------------|
-| ![pip](https://img.shields.io/badge/pip-Install-blue?style=flat-square) | ![conda](https://img.shields.io/badge/conda-Environment-green?style=flat-square) | ![docker](https://img.shields.io/badge/Docker-Container-blue?style=flat-square) |
-
-</div>
-
-<details>
-<summary><b>🐍 Using pip (Recommended)</b></summary>
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-</details>
-
-<details>
-<summary><b>🐍 Using conda</b></summary>
-
-```bash
-# Create conda environment
-conda create -n shell-ai python=3.8
-
-# Activate environment
-conda activate shell-ai
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-</details>
-
-<details>
-<summary><b>🐳 Using Docker</b></summary>
-
-```bash
-# Build Docker image
-docker build -t shell-ai-hackathon .
-
-# Run container
-docker run -it --rm -v $(pwd):/app shell-ai-hackathon
-```
-
-</details>
-
-### 3️⃣ **Execute the Pipeline**
-
-```bash
-# Run the complete pipeline
-python src/main.py
-
-# Or run specific components
-python src/preprocessing.py    # Data preprocessing only
-python src/models.py          # Model training only
-```
-
-### 4️⃣ **View Results**
-
-```bash
-# Check the results directory
-ls results/
-
-# View submission file
-head results/submission.csv
-```
-
-<div align="center">
-
-**🎉 Your submission file is ready at `results/submission.csv`!**
 
 </div>
 
