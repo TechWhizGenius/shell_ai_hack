@@ -54,6 +54,7 @@ In the fuel industry, blending different fuel components to achieve desired prop
 The challenge is to develop models capable of accurately predicting the properties of fuel blends based on their constituent components and their proportions. These predictions must be precise enough to guide real-world blending decisions where safety, performance, and sustainability are paramount. By harnessing the power of data science and machine learning, this work helps accelerate the adoption of sustainable aviation fuels by providing tools that can rapidly evaluate thousands of potential blend combinations, identify optimal recipes that maximize sustainability while meeting specifications, reduce development time for new sustainable fuel formulations, and enable real-time blend optimization in production facilities.
 
 ## 📊 Dataset Overview
+
 ## 📊 Dataset Overview
 
 The competition provided **three key files**:
@@ -61,7 +62,7 @@ The competition provided **three key files**:
 ```mermaid
 flowchart TD
     A[📊 Competition Dataset] --> B[📁 train.csv<br/>Training Data<br/>Rows: Variable<br/>Columns: 65]
-    A --> C[📁 test.csv<br/>Test Data<br/>Rows: 500<br/>Columns: 55]
+    A --> C[📁 test.csv<br/>Test Data<br/>Rows: 500<br/>Columns: 55]  
     A --> D[📁 sample_submission.csv<br/>Submission Template<br/>Format Guide]
     
     B --> E[Model Training & Validation]
