@@ -1,4 +1,81 @@
-## 🙏 Acknowledgments
+## 🔗 Competition Details
+
+<div align="center">
+
+### 📍 **Event Information**
+
+[![HackerEarth](https://img.shields.io/badge/Platform-HackerEarth-green?style=for-the-badge&logo=hackerearth)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
+[![Shell.ai](https://img.shields.io/badge/Organizer-Shell.ai-yellow?style=for-the-badge&logo=shell)]()
+
+</div>
+
+| **Attribute** | **Details** |
+|---------------|-------------|
+| **🏢 Organizer** | Shell.ai Team |
+| **🌐 Platform** | [HackerEarth](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/) |
+| **📅 Competition Period** | [Add dates if known] |
+| **👥 Total Participants** | [Add if known] |
+| **🎯 Challenge Focus** | Sustainable Fuel Blend Properties Prediction |
+| **📊 Submission Limit** | 2000 total, 100 per day |
+| **🏆 Prize Categories** | General, University, Start-up Editions |
+
+---
+
+### 🎖️ Awards & Recognition
+
+<div align="center">
+
+#### 🏆 **Prize Structure**
+
+</div>
+
+<details>
+<summary><b>🥇 General Edition (Top 3 winners)</b></summary>
+
+- **Monetary Awards**: Significant cash prizes
+- **Recognition**: Winner certificates and LinkedIn recognition
+- **Networking**: Invitation to Shell's Changemakers of Tomorrow event
+
+</details>
+
+<details>
+<summary><b>🎓 Special University Edition (Top 2 winners)</b></summary>
+
+- **Research Collaboration**: External Technical Collaboration (ETC) opportunities with Shell
+- **Academic Partnership**: Institute-level collaboration possibilities
+- **Professional Development**: Mentorship and career guidance
+
+</details>
+
+<details>
+<summary><b>🚀 Special Start-up Edition (Up to 3 winners)</b></summary>
+
+- **Funding Opportunity**: Proof of Concept funding consideration
+- **Business Development**: Product development support with Shell GameChanger
+- **Acceleration**: Access to Shell's innovation ecosystem
+
+</details>
+
+---
+
+### 🌟 Event Highlights
+
+- **🎤 Changemakers of Tomorrow Event**: Winners pitch live at Shell Technology Centre, Bangalore
+- **✈️ Travel Support**: Accommodation and travel covered for top finalists
+- **🌍 Global Participation**: International competition with diverse participants
+- **💡 Real-world Impact**: Solutions addressing actual industry challenges
+
+---
+
+<div align="center">
+
+**🔗 Useful Links**
+
+[![Problem Statement](https://img.shields.io/badge/Problem-Statement-blue?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
+[![Shell.ai](https://img.shields.io/badge/Shell.ai-Homepage-yellow?style=flat-square)](https://www.shell.ai/)
+[![Dataset](https://img.shields.io/badge/Download-Dataset-green?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
+
+</div>
 
 <div align="center">
 
@@ -31,7 +108,17 @@
 
 </div>
 
-*Special appreciation for the open-source data science ecosystem that# 🛢️ Shell.ai Hackathon 2025: Sustainable Fuel Blend Properties Prediction
+*Special appreciation for the open-source data science ecosystem that made this project possible*
+
+---
+
+<div align="center">
+
+**🌱 This project contributes to the global effort of accelerating sustainable fuel adoption and supporting the transition to a net-zero future.**
+
+*Built with ❤️ for a more sustainable tomorrow*
+
+</div># 🛢️ Shell.ai Hackathon 2025: Sustainable Fuel Blend Properties Prediction
 
 <div align="center">
   
@@ -599,85 +686,6 @@ head results/submission.csv
 ### 🎓 **Personal Growth**
 
 *"This hackathon taught me [your key learnings about machine learning, fuel chemistry, or technical skills]*"
-
-</div>
-
-## 🔗 Competition Details
-
-<div align="center">
-
-### 📍 **Event Information**
-
-[![HackerEarth](https://img.shields.io/badge/Platform-HackerEarth-green?style=for-the-badge&logo=hackerearth)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
-[![Shell.ai](https://img.shields.io/badge/Organizer-Shell.ai-yellow?style=for-the-badge&logo=shell)]()
-
-</div>
-
-| **Attribute** | **Details** |
-|---------------|-------------|
-| **🏢 Organizer** | Shell.ai Team |
-| **🌐 Platform** | [HackerEarth](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/) |
-| **📅 Competition Period** | [Add dates if known] |
-| **👥 Total Participants** | [Add if known] |
-| **🎯 Challenge Focus** | Sustainable Fuel Blend Properties Prediction |
-| **📊 Submission Limit** | 2000 total, 100 per day |
-| **🏆 Prize Categories** | General, University, Start-up Editions |
-
----
-
-### 🎖️ Awards & Recognition
-
-<div align="center">
-
-#### 🏆 **Prize Structure**
-
-</div>
-
-<details>
-<summary><b>🥇 General Edition (Top 3 winners)</b></summary>
-
-- **Monetary Awards**: Significant cash prizes
-- **Recognition**: Winner certificates and LinkedIn recognition
-- **Networking**: Invitation to Shell's Changemakers of Tomorrow event
-
-</details>
-
-<details>
-<summary><b>🎓 Special University Edition (Top 2 winners)</b></summary>
-
-- **Research Collaboration**: External Technical Collaboration (ETC) opportunities with Shell
-- **Academic Partnership**: Institute-level collaboration possibilities
-- **Professional Development**: Mentorship and career guidance
-
-</details>
-
-<details>
-<summary><b>🚀 Special Start-up Edition (Up to 3 winners)</b></summary>
-
-- **Funding Opportunity**: Proof of Concept funding consideration
-- **Business Development**: Product development support with Shell GameChanger
-- **Acceleration**: Access to Shell's innovation ecosystem
-
-</details>
-
----
-
-### 🌟 Event Highlights
-
-- **🎤 Changemakers of Tomorrow Event**: Winners pitch live at Shell Technology Centre, Bangalore
-- **✈️ Travel Support**: Accommodation and travel covered for top finalists
-- **🌍 Global Participation**: International competition with diverse participants
-- **💡 Real-world Impact**: Solutions addressing actual industry challenges
-
----
-
-<div align="center">
-
-**🔗 Useful Links**
-
-[![Problem Statement](https://img.shields.io/badge/Problem-Statement-blue?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
-[![Shell.ai](https://img.shields.io/badge/Shell.ai-Homepage-yellow?style=flat-square)](https://www.shell.ai/)
-[![Dataset](https://img.shields.io/badge/Download-Dataset-green?style=flat-square)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
 
 </div>
 
