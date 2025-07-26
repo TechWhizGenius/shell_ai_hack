@@ -54,6 +54,7 @@ In the fuel industry, blending different fuel components to achieve desired prop
 The challenge is to develop models capable of accurately predicting the properties of fuel blends based on their constituent components and their proportions. These predictions must be precise enough to guide real-world blending decisions where safety, performance, and sustainability are paramount. By harnessing the power of data science and machine learning, this work helps accelerate the adoption of sustainable aviation fuels by providing tools that can rapidly evaluate thousands of potential blend combinations, identify optimal recipes that maximize sustainability while meeting specifications, reduce development time for new sustainable fuel formulations, and enable real-time blend optimization in production facilities.
 
 
+
 ## 📊 Dataset Overview
 
 The competition provided **three key files** with rich, complex data:
@@ -68,6 +69,22 @@ graph LR
     B --> D
     D --> F
 ```
+
+## 📊 Dataset Overview
+
+The competition provided **three key files** with rich, complex data:
+
+<div align="center">
+
+```mermaid
+graph TD
+    A[📁 train.csv<br/>Training Data] --> B[🧠 Build & Train Model]
+    C[📁 test.csv<br/>Test Data] --> D[🎯 Generate Predictions]
+    E[📁 sample_submission.csv<br/>Format Template] --> F[📤 Final Submission]
+    
+    B --> D
+    D --> F
+    E --> F
 
 </div>
 
@@ -126,7 +143,6 @@ Score = max(0, 100 × (1 - cost/reference_cost))
 
 ---
 
-I need the dataset over view in the mermaid graph. Right now, I dont understand the graph poperly. Under the graph just mention what rows does the train and test dataset has. Please give this separately instead of making of changes in the existing code
  
 ## 🛠️ My Approach
 
