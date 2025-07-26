@@ -4,8 +4,8 @@
 
 ### 📍 **Event Information**
 
-[![HackerEarth](https://img.shields.io/badge/Platform-HackerEarth-green?style=for-the-badge&logo=hackerearth)](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/)
-[![Shell.ai](https://img.shields.io/badge/Organizer-Shell.ai-yellow?style=for-the-badge&logo=shell)]()
+[![HackerEarth](https://img.shields.io/badge/Platform-HackerEarth-green?style=for-the-badge&logo=hackerearth)](https://www.hackerearth.com/challenges/new/competitive/shellai-hackathon-2025/)
+[![Shell.ai](https://img.shields.io/badge/Organizer-Shell.ai-yellow?style=for-the-badge&logo=shell)](https://www.shell.com/what-we-do/digitalisation/collaboration-and-open-innovation/shell-ai-hackathon-for-sustainable-and-affordable-energy.html)
 
 </div>
 
