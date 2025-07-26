@@ -12,49 +12,12 @@
 | **Attribute** | **Details** |
 |---------------|-------------|
 | **🏢 Organizer** | Shell.ai Team |
-| **🌐 Platform** | [HackerEarth](https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2025/problems/) |
-| **📅 Competition Period** | [Add dates if known] |
-| **👥 Total Participants** | [Add if known] |
+| **🌐 Platform** | [HackerEarth](https://www.hackerearth.com/challenges/new/competitive/shellai-hackathon-2025/) |
+| **📅 Competition Period** | Jul 04, 2025 - Jul 23, 2025 |
+| **👥 Total Participants** | 7005 |
 | **🎯 Challenge Focus** | Sustainable Fuel Blend Properties Prediction |
 | **📊 Submission Limit** | 2000 total, 100 per day |
 | **🏆 Prize Categories** | General, University, Start-up Editions |
-
----
-
-### 🎖️ Awards & Recognition
-
-<div align="center">
-
-#### 🏆 **Prize Structure**
-
-</div>
-
-<details>
-<summary><b>🥇 General Edition (Top 3 winners)</b></summary>
-
-- **Monetary Awards**: Significant cash prizes
-- **Recognition**: Winner certificates and LinkedIn recognition
-- **Networking**: Invitation to Shell's Changemakers of Tomorrow event
-
-</details>
-
-<details>
-<summary><b>🎓 Special University Edition (Top 2 winners)</b></summary>
-
-- **Research Collaboration**: External Technical Collaboration (ETC) opportunities with Shell
-- **Academic Partnership**: Institute-level collaboration possibilities
-- **Professional Development**: Mentorship and career guidance
-
-</details>
-
-<details>
-<summary><b>🚀 Special Start-up Edition (Up to 3 winners)</b></summary>
-
-- **Funding Opportunity**: Proof of Concept funding consideration
-- **Business Development**: Product development support with Shell GameChanger
-- **Acceleration**: Access to Shell's innovation ecosystem
-
-</details>
 
 ---
 
@@ -301,33 +264,9 @@ Score = max(0, 100 × (1 - cost/reference_cost))
 
 > **🎖️ Final Ranking**: Based on ***Private Leaderboard*** performance only!
 
-### ⚠️ Error Codes (Scores 0-3)
 
-<div align="center">
-
-| Score | Error Type | Description |
-|-------|------------|-------------|
-| `0` | ❌ **File Format** | Not a .csv file |
-| `1` | 🏷️ **Missing Columns** | Property column with specified name structure doesn't exist |
-| `2` | 🔢 **Data Type** | Solution contains non-floating point numbers |
-| `3` | 📏 **Dimensions** | Solution should have 500 rows and 10 columns (excluding ID) |
-
-</div>
 
 ---
-
-<div align="center">
-  
-### 📊 **Evaluation Rounds**
-
-```mermaid
-flowchart TD
-    A[🎯 500 Test Samples] --> B[📊 Split into Two]
-    B --> C[🔓 Public: 250 samples<br/>Visible during competition]
-    B --> D[🔒 Private: 250 samples<br/>Final ranking determination]
-    C --> E[📈 Real-time feedback]
-    D --> F[🏆 Winner announcement]
-```
 
 </div>
 
